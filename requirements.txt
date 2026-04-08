@@ -1,0 +1,12 @@
+# Customer Support RL Environment — Python Dependencies
+# Install: pip install -r requirements.txt
+
+# ── Core RL framework ──────────────────────────────────────────────────────
+gymnasium>=0.29.1        # OpenAI Gym successor (Env, spaces.Box, spaces.Discrete)
+numpy>=1.24.0            # Arrays, Q-table operations
+
+# ── Web demo UI ────────────────────────────────────────────────────────────
+gradio>=4.0.0            # Interactive web UI (required only for app.py)
+
+# ── All other dependencies are Python standard library ─────────────────────
+# json, os, sys, random, dataclasses, typing, collections, argparse
